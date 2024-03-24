@@ -22,12 +22,9 @@ class MainActivity : AppCompatActivity() {
             val randomIntent = Intent(this, UsersListActivity::class.java)
             startActivity(randomIntent)
         }
-
     }
 
-    fun getScreensCount(): Int {
-        return supportFragmentManager.backStackEntryCount + 1
-    }
+
 
 
 }

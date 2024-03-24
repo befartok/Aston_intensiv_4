@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".FragmentB">
 
-    <!-- TODO: Update blank fragment layout -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -15,7 +14,7 @@
             android:id="@+id/buttonToGoFragmentC"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Перейти на фрагмент C"
+            android:text="@string/goToC"
             app:layout_constraintBottom_toBottomOf="@+id/textView2"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -25,7 +24,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="B"
+            android:text="@string/b"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="267dp" />
 
@@ -33,7 +32,7 @@
             android:id="@+id/buttonBack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Назад"
+            android:text="@string/back"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

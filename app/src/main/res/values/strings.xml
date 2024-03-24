@@ -2,4 +2,36 @@
     <string name="app_name">Aston_intensiv_4</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="goToA">Перейти на фрагмент А</string>
+    <string name="openUsersList">Открыть список пользователей</string>
+    <string name="goToB">Перейти на фрагмент B</string>
+    <string name="a">A</string>
+    <string name="goToC">Перейти на фрагмент C</string>
+    <string name="b">B</string>
+    <string name="back">Назад</string>
+    <string name="c">C</string>
+    <string name="goToD">Перейти на фрагмент D</string>
+    <string name="backToA">Вернутся на фрагмент А</string>
+    <string name="d">D</string>
+    <string name="backToB">Вернутся на фрагмент В</string>
+    <string name="etLastNameText">Иванов</string>
+    <string name="etFirstNameText">Иван</string>
+    <string name="etPhone">8123665479</string>
+    <string name="tvFamily">Фамилия:</string>
+    <string name="textViewName">Имя:</string>
+    <string name="tvLink">Ссылка на фото:</string>
+    <string name="tvPhone">Номер телефона:</string>
+    <string name="etLink">link</string>
+    <string name="textViewFirstName1">Иван</string>
+    <string name="textViewLastName1">Иванов</string>
+    <string name="phoneNumber1">8123665479</string>
+    <string name="textViewFirstName2">Петр</string>
+    <string name="textViewLastName2">Петров</string>
+    <string name="phoneNumber2">8123665479</string>
+    <string name="textViewFirstName3">Сидор</string>
+    <string name="textViewLastName3">Сидоров</string>
+    <string name="phoneNumber3">8123665479</string>
+    <string name="textViewFirstName4">Василий</string>
+    <string name="textViewLastName4">Васильев</string>
+    <string name="phoneNumber4">8123665479</string>
 </resources>

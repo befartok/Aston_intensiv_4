@@ -7,14 +7,15 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.aston_intensiv_4.databinding.FragmentCBinding
 
-private const val MESSAGE_KEY_EXTRA="MESSAGE_KEY_EXTRA"
+private const val MESSAGE_KEY_EXTRA = "MESSAGE_KEY_EXTRA"
+
 class FragmentC : Fragment() {
     private lateinit var binding: FragmentCBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentCBinding.inflate(inflater, container, false)
 
         val msg = requireArguments().getString(MESSAGE_KEY_EXTRA)
@@ -35,7 +36,7 @@ class FragmentC : Fragment() {
 
     companion object {
         @JvmStatic
-        fun newInstance(msg: String) : FragmentC{
+        fun newInstance(msg: String): FragmentC {
             return FragmentC().apply {
                 arguments = Bundle().also { it.putString(MESSAGE_KEY_EXTRA, msg) }
             }

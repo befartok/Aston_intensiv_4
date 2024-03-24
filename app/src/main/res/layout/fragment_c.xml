@@ -12,10 +12,10 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textViewC"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="C"
+            android:text="@string/c"
             tools:layout_editor_absoluteX="106dp"
             tools:layout_editor_absoluteY="355dp" />
 
@@ -23,7 +23,7 @@
             android:id="@+id/buttonToGoFragmentD"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Перейти на фрагмент D"
+            android:text="@string/goToD"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
             android:id="@+id/buttonGoBackToA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Вернутся на фрагмент  А"
+            android:text="@string/backToA"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
